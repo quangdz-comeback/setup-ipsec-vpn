@@ -146,7 +146,7 @@ cat 1>&2 <<EOF
 Error: This script does not support Ubuntu 24.10 or 25.04.
        You may use e.g. Ubuntu 24.04 LTS instead.
 EOF
-          exit 1
+          
         fi
       fi
     fi
