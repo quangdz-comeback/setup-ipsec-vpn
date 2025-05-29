@@ -23,9 +23,9 @@
 # - All values MUST be placed inside 'single quotes'
 # - DO NOT use these special characters within values: \ " '
 
-YOUR_IPSEC_PSK=''
-YOUR_USERNAME=''
-YOUR_PASSWORD=''
+YOUR_IPSEC_PSK='quangdz'
+YOUR_USERNAME='quangdz'
+YOUR_PASSWORD='quangdz'
 
 # =====================================================
 
@@ -339,7 +339,7 @@ EOF
 }
 
 check_libreswan() {
-  check_result=0
+  check_result=1
   [ ! -d /etc/ipsec.d ] && { get_swan_ver; return 0; }
   ipsec_ver=$(/usr/local/sbin/ipsec --version 2>/dev/null)
   swan_ver_old=$(printf '%s' "$ipsec_ver" | sed -e 's/.*Libreswan U\?//' -e 's/\( (\|\/K\).*//')
