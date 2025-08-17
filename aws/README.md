@@ -12,7 +12,7 @@ Available customization parameters:
 > 
 > For example, you may not be able to deploy an `m5a.large` instance in `ap-east-1` (hypothetically). In that case, you might experience the following error during deployment: `The requested configuration is currently not supported. Please check the documentation for supported configurations`. Newly released regions are more prone to having this problem as there are less variety of instances. For more info about instance type availability, refer to [https://instances.vantage.sh/](https://instances.vantage.sh/).</details>
 
-- OS for your VPN server (Ubuntu 24.04/**22.04**/20.04, Debian 12/11, Amazon Linux 2)
+- OS for your VPN server (Ubuntu **24.04**/22.04, Debian 12/11, Amazon Linux 2)
 - Your VPN username
 - Your VPN password
 - Your VPN IPsec PSK (pre-shared key)
@@ -28,6 +28,12 @@ After you click "create stack" in the final step, please wait for the stack crea
 Click the icon below to start:
 
 [![Launch stack](images/cloudformation-launch-stack-button.png)](https://console.aws.amazon.com/cloudformation/home#/stacks/new)
+
+## Further reading
+
+Learn more about the design of this CloudFormation template:
+
+[Introduction to AWS CloudFormation with Example Project Walk-Through](https://nixsanctuary.com/introduction-to-aws-cloudformation-with-example-project-walk-through/)
 
 ## Screenshots
 
@@ -122,4 +128,4 @@ You may use the "Delete" button on the CloudFormation stack page to delete the C
 
 ## Author
 
-Copyright (C) 2020-2024 [Scott X. L.](https://github.com/scottpedia) <[ge105@ncf.ca](mailto:ge105@ncf.ca)>
+Copyright (C) 2020-2025 [Scott X. L.](https://github.com/scottpedia) <[ge105@ncf.ca](mailto:ge105@ncf.ca)>

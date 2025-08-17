@@ -72,7 +72,7 @@ https://gitlab.com/hwdsl2/setup-ipsec-vpn/-/raw/master/vpnsetup.sh
 
 一个云服务器，虚拟专用服务器 (VPS) 或者专用服务器，安装以下操作系统之一：
 
-- Ubuntu 24.04, 22.04 或者 20.04
+- Ubuntu 24.04 或者 22.04
 - Debian 12 或者 11
 - CentOS Stream 10 或者 9
 - Rocky Linux 或者 AlmaLinux
@@ -94,7 +94,7 @@ https://gitlab.com/hwdsl2/setup-ipsec-vpn/-/raw/master/vpnsetup.sh
 
 使用以下按钮快速部署：
 
-[![Deploy to DigitalOcean](docs/images/do-install-button.png)](http://dovpn.carlfriess.com) &nbsp;[![Deploy to Linode](docs/images/linode-deploy-button.png)](https://cloud.linode.com/stackscripts/37239) &nbsp;[![Deploy to AWS](docs/images/aws-deploy-button.png)](aws/README-zh.md) &nbsp;[![Deploy to Azure](docs/images/azure-deploy-button.png)](azure/README-zh.md)
+[![Deploy to Linode](docs/images/linode-deploy-button.png)](https://cloud.linode.com/stackscripts/37239) &nbsp;[![Deploy to AWS](docs/images/aws-deploy-button.png)](aws/README-zh.md) &nbsp;[![Deploy to Azure](docs/images/azure-deploy-button.png)](azure/README-zh.md)
 
 [**&raquo; 我想建立并使用自己的 VPN，但是没有可用的服务器**](https://blog.ls20.com/ipsec-l2tp-vpn-auto-setup-for-ubuntu-12-04-on-amazon-ec2/#gettingavps)
 
@@ -359,7 +359,7 @@ https://gitlab.com/hwdsl2/setup-ipsec-vpn/-/raw/master/extras/vpnupgrade.sh
 如果无法下载，打开 [vpnupgrade.sh](extras/vpnupgrade.sh)，然后点击右边的 `Raw` 按钮。按快捷键 `Ctrl/Cmd+A` 全选，`Ctrl/Cmd+C` 复制，然后粘贴到你喜欢的编辑器。
 </details>
 
-当前支持的 Libreswan 最新版本是 `5.2`。查看已安装版本：`ipsec --version`。
+当前支持的 Libreswan 最新版本是 `5.3`。查看已安装版本：`ipsec --version`。
 
 **注：** `xl2tpd` 可以使用系统的软件包管理器进行更新，例如 Ubuntu/Debian 上的 `apt-get`。
 
